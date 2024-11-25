@@ -86,6 +86,7 @@ Step 1. Open any browser(e.g Chrome) and enter http://localhost:8080/
 Step 2. You should see the "Online Bookstore" application. Below are the screenshots,
 
 Home Page
+
 ![alt text](image-1.png)
 
 Manage Books
