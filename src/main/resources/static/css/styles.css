@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px; /* Adjust according to the navbar height */
+    min-height: 100vh; /* Ensure body fills the viewport */
+    margin: 0; /* Remove default margin */
+    /*background: rgb(228, 220, 220);*/ /*Brownish Pink*/
+}
+
+main {
+    flex: 1; /* Push the footer to the bottom */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a.card {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+a.card:hover {
+    text-decoration: none;
+    transform: scale(1.02); /* Optional hover effect */
+    transition: transform 0.2s ease-in-out;
+}
+
+.card {
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    margin: auto .5em;
+    width: 200px;
+    text-align: center; /* Center-align card text */
+}
+
+.card-img-center {
+    height: 150px; /* Fixed image height */
+    object-fit: contain; /* Crop and center the image */
+}
+
+.fixed-card {
+    width: 150px; /* Set card width */
+    height: 375px; /* Set card height */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.card-title {
+    text-overflow: ellipsis; /* Handle long text gracefully */
+    overflow: hidden; /* Hide overflowing text */
+}
+
+.card-body {
+    overflow-y: auto;
+    text-overflow: ellipsis; /* Handle long text gracefully */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+}
+
+/* Custom curved card */
+.curved-card {
+    border-radius: 25px; /* Adjust for more or less curvature */
+    overflow: hidden; /* Ensures content inside respects the curve */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for a shadow effect */
+}
+
+/* Custom styling for carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Center controls vertically */
+    transform: translateY(-50%);
+    width: 50px; /* Adjust width for visibility */
+}
+
+/* Move carousel indicators below the carousel */
+.carousel-indicators {
+    position: absolute;
+    bottom: -50px; /* Adjust this value to control the spacing */
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+/* Optional: Add some spacing between the carousel and the indicators */
+.carousel {
+    margin-bottom: 40px; /* Adjust this value to add space below */
+}
+
+.fas.fa-shopping-cart {
+    color: white; /* Change to your preferred color */
+}
+
+/* Custom styles for the navbar */
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    color: white; /* White color for menu items */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Lighter white on hover */
+}
+
+.navbar-brand {
+    color: white; /* White color for brand */
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa; /* Lighter white on hover */
+}
