@@ -50,8 +50,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. Install MySQL Community version (https://dev.mysql.com/downloads/installer/)
    Install the server, workbench & command line client
-   
-3. Install Postman(https://www.postman.com/downloads/)
 
 ### Setup
 
@@ -60,7 +58,7 @@ Step 0: Open Eclipse Enterprise edition.
 Step 1: Click On File > Import > Git (type Git in search bar) > Projects From Git (with smart import) > Clone URI > Paste The Repository URI as: https://github.com/goutham-j/bookstore.git > Select Main Branch > Select Destination Directory > Finish.
 
 Step 2. Open MySQL Workbench tool, use the Command Window and execute all the SQL commands listed in "DATABASE.MD". 
-	Note: You should see the "DATABASE.MD" file on the root folder of this project. Once all SQL commands are executed, you should be able to 	view the "bookstore" schema, "book" table & the other book records you created in the MySql database.
+Note: You should see the "DATABASE.MD" file on the root folder of this project. Once all SQL commands are executed, you should be able to view the "bookstore" schema, "book" table & the other book records you created in the MySql database.
 
 Step 3. Go inside src/main/resources > application.properties and update the below database details
 	spring.application.name=bookstore
@@ -87,10 +85,13 @@ Step 1. Open any browser(e.g Chrome) and enter http://localhost:8080/
 
 Step 2. You should see the "Online Bookstore" application. Below are the screenshots,
 
+Home Page
 ![alt text](image-1.png)
 
+Manage Books
 ![alt text](image-2.png)
 
+Add Book
 ![alt text](image-3.png)
 
 
