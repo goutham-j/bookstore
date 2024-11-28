@@ -95,10 +95,12 @@ a.card:hover {
 
 /* Custom styles for the navbar */
 .navbar {
+    padding: 1rem;
     background-color: black;
 }
 
 .navbar-nav .nav-link {
+    margin: 0 0.5rem;
     color: white; /* White color for menu items */
 }
 
