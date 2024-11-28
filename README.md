@@ -1,7 +1,7 @@
 
 # Online Book Store
 
-A user-friendly web application to manage an onbline book store. This project is aimed to guide students/beginners to develop a quick, simple web application using Java based technologies. Refer to the [Technologies](#technologies) section to know the technologies used.
+A user-friendly web application to manage an online book store. This project is aimed to guide students/beginners to develop a quick, simple web application using Java based technologies. Refer to the [Technologies](#technologies) section to know the technologies used.
 
 This application helps to add, edit, delete, list & search books. It lists the available books and provides an option to edit or delete them and add new ones. Provides an intuitive search to search by a keyword.
 
@@ -50,6 +50,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. Install MySQL Community version (https://dev.mysql.com/downloads/installer/)
    Install the server, workbench & command line client
+   
+3. Install Postman(https://www.postman.com/downloads/)
 
 ### Setup
 
@@ -58,7 +60,7 @@ Step 0: Open Eclipse Enterprise edition.
 Step 1: Click On File > Import > Git (type Git in search bar) > Projects From Git (with smart import) > Clone URI > Paste The Repository URI as: https://github.com/goutham-j/bookstore.git > Select Main Branch > Select Destination Directory > Finish.
 
 Step 2. Open MySQL Workbench tool, use the Command Window and execute all the SQL commands listed in "DATABASE.MD". 
-Note: You should see the "DATABASE.MD" file on the root folder of this project. Once all SQL commands are executed, you should be able to view the "bookstore" schema, "book" table & the other book records you created in the MySql database.
+	Note: You should see the "DATABASE.MD" file on the root folder of this project. Once all SQL commands are executed, you should be able to 	view the "bookstore" schema, "book" table & the other book records you created in the MySql database.
 
 Step 3. Go inside src/main/resources > application.properties and update the below database details
 	spring.application.name=bookstore
@@ -85,15 +87,11 @@ Step 1. Open any browser(e.g Chrome) and enter http://localhost:8080/
 
 Step 2. You should see the "Online Bookstore" application. Below are the screenshots,
 
-Home Page
+![alt text](images/image-1.png)
 
-![alt text](image-1.png)
+![alt text](images/image-2.png)
 
-Manage Books
-![alt text](image-2.png)
-
-Add Book
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 
 Step 3. Click on "Home", "Manage Books", "Add Book" or "Search" to check various functionalities.
