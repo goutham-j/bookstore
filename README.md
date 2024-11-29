@@ -28,8 +28,9 @@ Read "Online Bookstore.pptx" to learn about the requirements, design & data defi
 ### Back End
 1. Java (17) 
 2. Spring Boot
-3. JPA (Hibernate)
-4. JDBC
+3. REST Api
+4. JPA (Hibernate)
+5. JDBC
 
 ### Front End
 1. HTML
